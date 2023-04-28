@@ -1,0 +1,19 @@
+.node {
+    height : 12px;  
+    width : 12px; 
+    border-color : rgb(175, 216, 248) ; 
+    border-width: 1px ;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out;
+    display : flex ;
+    align-items: center ;
+    justify-content: center ;
+    object-fit: contain;
+}
+
+
+.start > :nth-child(1) {
+    padding : 0 ;
+    height : 15px ; 
+    width : 15px ;
+}

@@ -1,0 +1,28 @@
+.finder {
+    height : 100% ; 
+    width : 100% ; 
+}
+
+.header {
+    height : 50px ; 
+    background-color: lightgrey;
+    margin-bottom: 20px ;
+}
+
+.grid {
+    /* cursor: pointer ; */
+    position: absolute ;
+    left : 0 ; 
+    right : 0 ; 
+    margin : auto ;
+    width : 99% ; 
+}
+
+.row {
+    display : flex ; 
+    flex-direction: row ;
+}
+
+.button-container {
+    display : flex ; 
+}
