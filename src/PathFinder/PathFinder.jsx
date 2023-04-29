@@ -9,7 +9,6 @@ import { swarm } from './algorithms/swarm'
 import { biswarm } from './algorithms/biswarm' 
 
 function PathFinder() {
-    const dim = [38, 101] 
     const [nodes , setNodes] = useState([])
     const [isMouseDown, setIsMouseDown] = useState(false)
     const [startNode, setStartNode] = useState([0, 0]);
